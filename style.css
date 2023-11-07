@@ -1,0 +1,295 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"robotoflex";
+
+}
+
+html,body{
+         width: 100%;
+         height: 100%;
+}
+
+#main{
+    width: 100%;
+    background-color: #fff;
+}
+
+#home{
+    width:100%;
+    min-height: 100vh; /*viewport height*/
+   
+}
+
+#nav{
+    width:100%;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+i{
+    height: 50px;
+}
+
+
+#nav img{
+    width: 130px;
+}
+
+#nav #right{
+    display:flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+#nav a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-size:1vw;
+    letter-spacing:-1px;
+}
+
+#nav i{
+
+    margin-top:18px;
+  display: flex;
+   font-size: 25px;
+   
+}
+
+#home #homemain{
+ width: 100%;
+padding: 10vw 10vw;
+ 
+}
+
+#homemain .this{
+    font-weight:900;
+    font-size:1.5vw;
+    
+}
+#homemain .headings h1:hover{
+    color: black;
+}
+
+.this{
+    font-weight: 200;
+    
+}
+.headings{
+    display: flex;
+    gap: 40px;
+}
+
+.headings h1{
+    color: transparent;
+    -webkit-text-stroke: 1.5px black;
+    font-size:7vw;
+    font-weight:900;
+    line-height:1;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#homelast{
+    padding:5vw 15vw
+}
+
+#homelast p{
+       font-size: 3vw;
+       font-weight: 700;
+       letter-spacing:-0.1vw;
+       
+}
+
+#homelast p::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+#featured{
+    padding:10vw 15vw;
+   
+
+}
+#featured h1{
+    line-height: 1;
+    font-size: 3vw;
+    font-weight:400;
+}
+
+.fheading>h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+#featuredimages{
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fleft{
+    width: 45%;
+    height: inherit;
+    overflow:hidden;
+}
+
+.fleftelements{
+    display: flex;
+    flex-direction:column;
+    justify-content:center ;
+    width: 100%;
+    height: inherit;
+
+}
+
+.fleftelements h1{
+    font-size: 1vw;
+    line-height:1;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+
+*::selection{
+    color: #ffff;
+    background-color: #000;
+
+}
+
+
+
+.fleftelements h4{
+    opacity: 0.5;
+}
+
+.fleftelements h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+
+#fright{
+    width: 45%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+#fright .images{
+    width: 90%;
+    height:90% ;
+  
+}
+
+.btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 300px;
+}
+
+.btn button{
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: white;
+    font-size: 1vw;
+    font-weight: 800;
+    letter-spacing: -.5px;
+}
+
+#dev{
+    width: 100%;
+    padding: 5vw 15vw;
+}
+
+#dev h1{
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 60%;
+    line-height:1;
+    
+}
+
+#dev p{
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    letter-spacing: 2px;
+    width: 60%;
+}
+
+#slides{
+    display: flex;
+    justify-content:space-between;
+    padding: 3vw 10vw;
+}
+
+
+.slide{
+    width: 30%;
+    height:100px;
+    background-color: red;
+
+}
+
+
+.slide .img{
+  width:100%;
+  height:200px;
+  background-color: yellowgreen;
+  border-radius: 5px;
+}
+
+.slide .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.slide .tag{
+  width: fit-content;
+  border-radius: 100px;
+  margin: 20px 0;
+  padding:10px 22px ;
+  background-color: #f7f7f7;
+
+}
+
+.slide h3{
+font-size: 1.5vw;
+font-weight: 400;
+letter-spacing: -0.5px;
+
+}
+
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button button{
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: white;
+    font-size: 1vw;
+    font-weight: 800;
+    letter-spacing: -.5px;
+    
+
+}
+
+
